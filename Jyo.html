@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyothi's Fitness </title>
+    <style>
+        /* /CSS Reset/ */
+         body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/workout.jpg');
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .left {
+            position: absolute;
+            display: inline-block;
+            /* border: 2px solid red; */
+            left: 34px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 85px;
+        }
+
+        .left div {
+            color: rgb(239, 76, 40);
+            line-height: 19px;
+            font-size: 19px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 45%;
+            margin: 2px auto;
+            /* border: 2x solid palevioletred */
+        }
+
+        .right {
+            position: absolute;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            right: 34px;
+            top: 20px;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .navbar li a {
+            color: rgb(3, 43, 78);
+            padding: 34px 4px;
+            text-decoration: none;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(76, 3, 57);
+
+        }
+
+        .btn {
+            margin: 118px;
+            color: rgb(67, 3, 3);
+            background-color: rgb(11, 243, 243);
+            padding: 6px 80px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 15px;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(160, 219, 97);
+        }
+
+        .contaier {
+            border: 2px solid rgba(10, 194, 236, 0.527);
+            margin: 500px solid rgb(45, 38, 125);
+            padding: 240px 45px;
+
+            width: 35px;
+            border-radius: 15px;
+        }
+
+        .form-group input {
+            text-align: left;
+            display: block;
+            width: 221px;
+            padding: 9px 110px;
+            border: 2px solid black;
+            margin: 2px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+            padding: 197px 67px;
+
+        }
+
+        .container button {
+            display: block;
+            width: 400px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- This is fr logo -->
+        <div class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Jw2cJRnIjTQwOVpryhFuBsc1WmqjSi2IqA&usqp=CAU" alt="">
+            <div>Jyothi's Fitness</div>
+
+        </div>
+        <!--This is for navbar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home </a></li>
+                <li><a href="#">  About Us  </a></li>
+                <li><a href="#">  Fitness Calculator </a></li>
+                <li><a href="#">  Contact Us  </a></li>
+            </ul>
+        </div>
+        <!--This is for buttons  -->
+        <div class="right">
+            <button class="btn" type="button">Call Us Now</button>
+            <button class="btn" type="button">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join The Best GYM Ever</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Lcalitys">
+            </div>
+            <button class="btn" type="button">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
